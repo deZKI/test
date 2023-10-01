@@ -1,0 +1,14 @@
+site:
+  title: "StudyPlatform"
+
+server:
+  files:
+    dev:
+      contentRoot: "build/processedResources/js/main/public"
+      script: "build/dist/js/developmentExecutable/StudyPlatform.js"
+      api: "build/libs/StudyPlatform.jar"
+    prod:
+      script: "build/dist/js/productionExecutable/StudyPlatform.js"
+      siteRoot: ".com/site"
+
+  port: 8080
